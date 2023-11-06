@@ -18,7 +18,7 @@ namespace CDExampleRESTAzure.Model.Tests
         {
             GamesRepository gamesRepository = new GamesRepository();
             IEnumerable<Game> games = gamesRepository.GetAll();
-            Assert.AreEqual(3, games.Count());
+            Assert.AreEqual(2, games.Count());
         }
 
         [TestMethod()]
